@@ -12,8 +12,8 @@
     label + input[type="radio"] + label {border-left: solid 3px #675f6b;}
     </style>
 <div class="radio-group">
-   <input type="radio" id="inputgoogle" name="selector">
-   <label for="inputgoogle">Google</label>
+   <input type="radio" id="inputgoog" name="selector">
+   <label for="inputgoog">Google</label>
    <input type="radio" id="inputduck" name="selector">
    <label for="inputduck">DDG</label>
    <input type="radio" id="inputbing" name="selector">
@@ -21,7 +21,7 @@
 </div>
 <div class="centered">
   <form action="https://www.google.com/search">
-     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Google" id="google" class="search show" ></form>
+     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Google" id="goog" class="search show" ></form>
   <form action="https://www.bing.com/search">
      <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Bing" id="bing" class="search"></form>
   <form action="https://www.duckduckgo.com/">
@@ -30,8 +30,8 @@
 <script type="text/javascript">
   document.querySelector("#inputbing").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
   document.querySelector("#bing").classList.add("show");});
-  document.querySelector("#inputgoogle").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
-  document.querySelector("#google").classList.add("show");});
+  document.querySelector("#inputgoog").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
+  document.querySelector("#goog").classList.add("show");});
   document.querySelector("#inputduck").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
   document.querySelector("#duck").classList.add("show");});
 </script>
