@@ -12,26 +12,26 @@
     label + input[type="radio"] + label {border-left: solid 3px #675f6b;}
     </style>
 <div class="radio-group">
-   <input type="radio" id="inputgoog" name="selector">
-   <label for="inputgoog">Google</label>
-   <input type="radio" id="inputduck" name="selector">
-   <label for="inputduck">DDG</label>
-   <input type="radio" id="inputbing" name="selector">
-   <label for="inputbing">Bing</label>
+   <input type="radio" id="intgoog" name="selector">
+   <label for="intgoog">Google</label>
+   <input type="radio" id="intduck" name="selector">
+   <label for="intduck">DDG</label>
+   <input type="radio" id="intbing" name="selector">
+   <label for="intbing">Bing</label>
 </div>
 <div class="centered">
   <form action="https://www.google.com/search">
-     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Google" id="goog" class="search show" ></form>
+     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Google" id="goog" class="search"></form>
   <form action="https://www.bing.com/search">
      <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Bing" id="bing" class="search"></form>
   <form action="https://www.duckduckgo.com/">
      <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search DuckDuckGo" id="duck" class="search"></form>  
 </div>
 <script type="text/javascript">
-  document.querySelector("#inputbing").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
+  document.querySelector("#intbing").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
   document.querySelector("#bing").classList.add("show");});
-  document.querySelector("#inputgoog").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
+  document.querySelector("#intgoog").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
   document.querySelector("#goog").classList.add("show");});
-  document.querySelector("#inputduck").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
+  document.querySelector("#intduck").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
   document.querySelector("#duck").classList.add("show");});
 </script>
