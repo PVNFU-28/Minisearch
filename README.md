@@ -1,4 +1,4 @@
-# Mingo
+# Minisearch
 
 Update:
         1. Deleted Bing, i think it dosnt have a purpose, while Google having the                  overall best search engine and DuckDuckGo having an anonymous one.
