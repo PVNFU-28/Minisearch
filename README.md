@@ -7,7 +7,7 @@ Updates:
   2. Changed appareance, i like these colors more      
   3. overall deleted unnecessary code making Minisearch not only look       
   minimalistic but also have a minimal code whitout bloat:
-  Mingo: 107 lines / 3.19Kb 
+  Mingo: 107 lines / 3.19Kb                                                             
   Minisearch: 31 lines/ 1.73Kb
             
 ![mingo](https://panfu28.neocities.org/Mini.png)
