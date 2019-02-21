@@ -1,37 +1,30 @@
-<!DOCTYPE html><title>Mingo</title>
+<!DOCTYPE html><title>Mini</title>
  <style>
-  body {background: #332f35;}
+  body {background: #445566;}
    .centered {width: 550px; height: 110px; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
    .search{display: none;}
-   .show{width: 100%; border: none; border-bottom: 3px solid #ff4d4d; color: bisque; background: #332f35; font-size: 36px; display: flex;}
-   .radio-group {display: inline-block;}
+   .one{width: 100%; border: none; border-bottom: 3px solid #374656; color: bisque; background: #445566; font-size: 36px; display: flex;}
+   .radios{display: inline-block;}
     input:focus {outline: none;}
     input[type="radio"] {position: absolute; visibility: hidden; display: none;}
-    input[type="radio"]:checked + label {color: #ccc8ce; background: #675f6b;}
-    label {color: #9a929e; display: inline-block; cursor: pointer; font-weight: bold; padding: 5px 20px;}
-    label + input[type="radio"] + label {border-left: solid 3px #675f6b;}
+    input[type="radio"]:checked + label {color: #ccc8ce; background: #374656;}
+    label {color: #374656; display: inline-block; cursor: pointer; font-weight: bold; padding: 4px 20px;}
     </style>
-<div class="radio-group">
+<div class="radios">
+ <input type="radio" id="intduck" name="selector">
+   <label for="intduck">DuckGo</label>
    <input type="radio" id="intgoog" name="selector">
    <label for="intgoog">Google</label>
-   <input type="radio" id="intduck" name="selector">
-   <label for="intduck">DDG</label>
-   <input type="radio" id="intbing" name="selector">
-   <label for="intbing">Bing</label>
 </div>
 <div class="centered">
   <form action="https://www.google.com/search">
-     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Google" id="goog" class="search"></form>
-  <form action="https://www.bing.com/search">
-     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search Bing" id="bing" class="search"></form>
+     <input type="text" name="q" autocomplete="off" autofocus placeholder="Search Google" id="goog" class="search"></form>
   <form action="https://www.duckduckgo.com/">
-     <input type="text" name="q" autocomplete="off" autofocus  placeholder="Search DuckDuckGo" id="duck" class="search"></form>  
+     <input type="text" name="q" autocomplete="off" autofocus placeholder="Search DuckDuckGo" id="duck" class="search one"></form>
 </div>
 <script type="text/javascript">
-  document.querySelector("#intbing").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
-  document.querySelector("#bing").classList.add("show");});
-  document.querySelector("#intgoog").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
-  document.querySelector("#goog").classList.add("show");});
-  document.querySelector("#intduck").addEventListener("click",function(){for(var i=0; i<3;i++){document.querySelectorAll(".search")[i].classList.remove("show");}
-  document.querySelector("#duck").classList.add("show");});
+  document.querySelector("#intgoog").addEventListener("click",function(){for(var i=0; i<2;i++){document.querySelectorAll(".search")[i].classList.remove("one");}
+  document.querySelector("#goog").classList.add("one");});
+  document.querySelector("#intduck").addEventListener("click",function(){for(var i=0; i<2;i++){document.querySelectorAll(".search")[i].classList.remove("one");}
+  document.querySelector("#duck").classList.add("one");});
 </script>
