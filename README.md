@@ -2,12 +2,13 @@
 
 Updates:
 
-        1. Deleted Bing, i think it dosnt have a purpose, while Google having the                  overall best search engine and DuckDuckGo having an anonymous one.
-        2. Changed appareance, i like these colors more      
-        3. overall deleted unnecessary code making Minisearch not only look       
-           minimalistic but also have a minimal code whitout bloat:
-           Mingo: 107 lines / 3.19Kb
-           Minisearch: 31 lines/ 1.73Kb
+  1. Deleted Bing, i think it dosnt have a purpose, with Google
+  having the overall best search engine and DuckDuckGo having an anonymous one.
+  2. Changed appareance, i like these colors more      
+  3. overall deleted unnecessary code making Minisearch not only look       
+  minimalistic but also have a minimal code whitout bloat:
+  Mingo: 107 lines / 3.19Kb
+  Minisearch: 31 lines/ 1.73Kb
             
 ![mingo](https://panfu28.neocities.org/Mini.png)
 
