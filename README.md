@@ -10,4 +10,4 @@ Updates:
            Mingo: 107 lines / 3.19Kb
            Minisearch: 31 lines/ 1.73Kb
             
-A minimalistic site to search with Google or DuckDuckGo engines, make it your homepage and bookmark it if you want :P
+A minimalistic site to search with Google or DuckDuckGo engines, make it your homepage and/or bookmark it if you want :P
