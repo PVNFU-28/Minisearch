@@ -8,6 +8,6 @@ Updates:
   3. overall deleted unnecessary code making Minisearch not only look       
   minimalistic but also have a minimal code without bloat:                                 Mingo(base used to make Minisearch):      107 lines / 3.19Kb                             Minisearch(my fork of Mingo):             31 lines/ 1.73Kb
             
-![mingo](https://panfu28.neocities.org/Mini.png)
+![Minisearch](https://panfu28.neocities.org/Mini.png)
 
 A minimalistic site to search with Google or DuckDuckGo engines, make it your homepage and/or bookmark it if you want :P
