@@ -1,10 +1,7 @@
 # Mingo
 
-**Update:**   Now you can also search *Bing* and *DuckDuckGo*.
+**Update:**   Deleted Bing, i think it dosnt have a purpose, while Google having the overall best search engine and DuckDuckGo having an anonymous one.
 
-![mingo](https://user-images.githubusercontent.com/34679965/41617571-7565dc4e-741e-11e8-8294-28b84c281445.png)
+A simple webpage to search Google or DuckDuckGo. Make it your homepage or bookmark it! 
 
-
-A simple webpage to search Google,Bing or DuckDuckGo. Make it your homepage or bookmark it! 
-
-https://makkoncept.github.io/Mingo/
+https://panfu28.github.io/Minisearch/
