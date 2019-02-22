@@ -11,4 +11,4 @@ Updates:
 ![Minisearch](https://panfu28.neocities.org/Mini.png)
 
 A minimalistic site to search with Google or DuckDuckGo engines, make it your homepage and/or bookmark it if you want :P.
-Also because of how short and easy to understand the code is you can consider Minisearch just a base to build your own custom start page, if somone looks at the code and finds some thing that could be more efficient/less bloated, please tell me i always welcome learning new ways to code.
+Also because of how short and easy to understand the code is you can consider Minisearch just a base to build your own custom start page, if somone looks at the code and finds something that could be more efficient/less bloated, please tell me i always welcome learning new ways to code.
